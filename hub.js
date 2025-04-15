@@ -1,7 +1,7 @@
 let nomorplat = [`B 3933 VNB`, `AA 3040 SI`, `A 2938 KWQ`, `G 2463 KAD`];
 
 function cekganjilgenap(nomor) {
-    let angka = parseInt(nomor.split(" ")[1]); // Hanya 1 spasi
+    let angka = parseInt(nomor.split(" ")[1]);
     let hasil;
 
     switch (angka % 2) {
